@@ -1,35 +1,567 @@
 {
   "team_overview": {
-    "description": "百途团队由持证康复师组成，具有十余年运动康复行业经验",
+    "description": "百途运动康复中心团队共 19 位持证康复师，其中 3 位联合创始人、4 位门店店长。团队成员毕业于国内外运动康复 / 康复治疗学专业院校，普遍持有国家卫健委（卫生部）康复师认证及国际主流康复手法 / 体能训练认证（MULLIGAN, NASM, NSCA, FMS, REDCORD, 施罗斯, 学善等）。",
+    "team_size_total": 19,
+    "team_size_co_founders": 3,
+    "team_size_store_managers": 4,
+    "team_size_therapists": 19,
     "team_experience_years": 11,
-    "team_size_total": null,
-    "team_size_therapists": null,
-    "team_size_note": "[待补充: 具体团队规模]"
+    "stores": {
+      "高新店": 5,
+      "西安路店": 5,
+      "开发区店": 4,
+      "西岗店": 4,
+      "跨店": 1
+    }
   },
   "members": [
     {
-      "id": "bai-therapist",
-      "name": "柏老师",
-      "title": "康复师",
+      "id": "liu-yong-kan",
+      "name": "刘永侃",
+      "name_en": "LiuYongKan",
+      "title": "联合创始人 / 技术总监",
+      "store": "各门店均提供服务",
+      "store_id": "all-stores",
+      "is_co_founder": true,
+      "is_technical_director": true,
       "specialties": [
-        "[待补充: 具体专长方向]"
+        "肩 / 肘 / 腕 / 髋 / 膝 / 踝各阶段损伤复健",
+        "运动表现提升",
+        "体姿体态管理"
       ],
       "qualifications": [
-        "[待补充: 具体资质]"
+        "美国医学会认证运动训练师（ACSM）",
+        "MULLIGAN 动态关节松动认证",
+        "REDCORD 悬吊 NEURAC 神经激活训练认证",
+        "FM 肌筋膜手法认证"
       ],
-      "experience_years": null,
-      "bio": "[待补充] 患者评价：处理很专业（来源：官网客户评价）",
-      "patient_testimonials": [
-        "处理的很专业 — 患者「幽默**」（手腕康复）"
+      "education": [
+        "美国恩波利亚州立大学运动康复专业"
+      ],
+      "experience_years": 10,
+      "experience_summary": "10 年以上运动康复工作经验，英语无障碍沟通",
+      "previous_positions": [
+        "NCAA 全美大学运动协会旗下橄榄球、篮球、排球、足球、田径联赛随队康复师",
+        "美国 GENESIS HEALTH CLUB 运动训练师",
+        "国内多家运动康复中心技术总监"
       ]
     },
     {
-      "id": "[待补充更多成员]",
-      "name": "[待补充]",
-      "title": "[待补充]"
+      "id": "yang-jia-qi",
+      "name": "杨家琦",
+      "name_en": "YangJiaQi",
+      "title": "联合创始人 / 高新店店长",
+      "store": "高新店",
+      "store_id": "store-1-gaoxin",
+      "is_co_founder": true,
+      "is_store_manager": true,
+      "specialties": [
+        "骨科术后复健",
+        "膝关节损伤复健",
+        "足踝生物力学矫正",
+        "运动损伤管理",
+        "运动表现提升",
+        "肩 · 膝 · 踝 · 腰椎损伤及疼痛管理"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "台湾学善物理体系认证康复师",
+        "VASYLI 足踝生物力学认证康复师"
+      ],
+      "education": [
+        "沈阳体育学院运动康复专业"
+      ]
+    },
+    {
+      "id": "qiu-xue-ying",
+      "name": "邱雪莹",
+      "name_en": "QiuXueYing",
+      "title": "联合创始人 / 开发区店店长",
+      "store": "开发区店",
+      "store_id": "store-3-kaifaqu",
+      "is_co_founder": true,
+      "is_store_manager": true,
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "内侧副韧带损伤复健",
+        "髌骨脱位复健",
+        "半月板损伤复健",
+        "肩袖损伤复健",
+        "三踝骨折复健",
+        "膝关节损伤复健",
+        "踝关节损伤复健",
+        "脊柱侧弯矫正",
+        "运动损伤管理",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "国家卫生部认证护士",
+        "MTC 贴扎认证康复师",
+        "脊柱侧弯认证"
+      ],
+      "education": [
+        "重庆文理学院运动康复专业"
+      ]
+    },
+    {
+      "id": "zhang-bo",
+      "name": "张博",
+      "name_en": "ZhangBo",
+      "title": "西安路店店长",
+      "store": "西安路店",
+      "store_id": "store-2-xianlu",
+      "is_store_manager": true,
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "体态矫正",
+        "内侧副韧带损伤复健",
+        "半月板损伤复健",
+        "髌骨脱位复健",
+        "肩袖损伤复健",
+        "三踝骨折复健",
+        "运动损伤复健",
+        "运动表现提升",
+        "脊柱侧弯矫正"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "施罗斯 SBP 体系认证",
+        "NJF 手法认证",
+        "MULLIGAN 动态关节松动认证",
+        "REDCORD 悬吊 NEURAC 认证",
+        "REDCORD 悬吊 ACTIVE 认证"
+      ],
+      "education": [
+        "沈阳体育学院运动康复与健康专业"
+      ]
+    },
+    {
+      "id": "qin-ying-han",
+      "name": "秦英瀚",
+      "name_en": "QinYingHan",
+      "title": "西岗店店长",
+      "store": "西岗店",
+      "store_id": "store-4-xigang",
+      "is_store_manager": true,
+      "specialties": [
+        "运动损伤复健",
+        "术后复健与功能提升",
+        "慢性疼痛调理",
+        "体态健康管理"
+      ],
+      "qualifications": [
+        "卫健委中医高级康复理疗师认证"
+      ],
+      "education": [
+        "大连理工大学运动康复专业学士",
+        "辽宁师范大学运动人体科学专业硕士"
+      ],
+      "experience_years": 8,
+      "experience_summary": "从事运动康复行业 8 年以上",
+      "previous_positions": [
+        "上海知名康复机构技术店长",
+        "清华大学体能训练康复中心康复师"
+      ]
+    },
+    {
+      "id": "bu-fan-xin",
+      "name": "卜凡鑫",
+      "name_en": "BuFanXin",
+      "title": "康复师",
+      "store": "西安路店",
+      "store_id": "store-2-xianlu",
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "半月板损伤复健",
+        "跟腱损伤复健",
+        "内侧副韧带损伤复健",
+        "髌骨脱位复健",
+        "肩 / 肘 / 腕 / 髋 / 膝 / 踝各阶段损伤复健",
+        "三踝骨折复健",
+        "悬吊运动训练",
+        "动态关节松动",
+        "运动损伤管理",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师"
+      ],
+      "education": [
+        "沈阳医学院康复治疗学专业"
+      ]
+    },
+    {
+      "id": "liu-jing",
+      "name": "刘靖",
+      "name_en": "LiuJing",
+      "title": "康复师",
+      "store": "西安路店",
+      "store_id": "store-2-xianlu",
+      "specialties": [
+        "肌骨疼痛管理（腰、髋、膝慢性疼痛等）",
+        "青少年体态矫正",
+        "脊柱侧弯",
+        "骨盆前倾",
+        "O 型腿",
+        "驼背",
+        "膝关节损伤及术后复健"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师"
+      ],
+      "education": [
+        "湖南医药学院康复治疗学本科毕业"
+      ],
+      "previous_positions": [
+        "湖南省大型连锁运动康复中心店长"
+      ]
+    },
+    {
+      "id": "wang-han-sheng",
+      "name": "王瀚生",
+      "name_en": "WangHanSheng",
+      "title": "康复师",
+      "store": "西安路店",
+      "store_id": "store-2-xianlu",
+      "specialties": [
+        "青少年脊柱侧弯矫正",
+        "异常体态纠正",
+        "运动损伤复健",
+        "运动表现提升",
+        "运动营养配餐",
+        "康复心理疏导"
+      ],
+      "qualifications": [
+        "施罗斯认证",
+        "IHEA 运动康复师认证",
+        "MULLIGAN 动态关节松动",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "哈尔滨体育学院运动康复专业"
+      ],
+      "previous_positions": [
+        "江苏大学附属医院",
+        "黑龙江省体育局冰上运动队",
+        "黑龙江省智慧医疗康复研究所"
+      ]
+    },
+    {
+      "id": "zi-hai-wei",
+      "name": "訾海微",
+      "name_en": "ZiHaiWei",
+      "title": "康复师",
+      "store": "西安路店",
+      "store_id": "store-2-xianlu",
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "内侧副韧带损伤复健",
+        "髌骨脱位复健",
+        "半月板损伤复健",
+        "动态关节松动",
+        "髋 / 膝 / 踝关节损伤复健",
+        "筋膜刀放松",
+        "脊柱侧弯矫正",
+        "运动表现提升",
+        "运动损伤管理"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动",
+        "FMS 纠正性训练"
+      ],
+      "education": [
+        "大连大学运动康复专业"
+      ]
+    },
+    {
+      "id": "fu-jia",
+      "name": "付嘉",
+      "name_en": "FuJia",
+      "title": "康复师",
+      "store": "高新店",
+      "store_id": "store-1-gaoxin",
+      "specialties": [
+        "骨科术后复健",
+        "膝关节损伤复健",
+        "肩关节损伤复健",
+        "腰椎慢性疼痛复健",
+        "脊柱侧弯矫正",
+        "体态矫正",
+        "动态关节松动",
+        "物理因子复健",
+        "运动损伤管理",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师"
+      ],
+      "education": [
+        "沈阳医学院康复治疗学专业"
+      ]
+    },
+    {
+      "id": "xu-hao",
+      "name": "许皓",
+      "name_en": "XuHao",
+      "title": "康复师",
+      "store": "高新店",
+      "store_id": "store-1-gaoxin",
+      "specialties": [
+        "骨科术后复健",
+        "膝关节损伤复健",
+        "运动损伤管理",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "FMS 功能性评估",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "沈阳体育学院运动康复专业"
+      ]
+    },
+    {
+      "id": "zhang-yu",
+      "name": "张宇",
+      "name_en": "ZhangYu",
+      "title": "康复师",
+      "store": "高新店",
+      "store_id": "store-1-gaoxin",
+      "specialties": [
+        "骨科术后复健",
+        "踝关节损伤复健",
+        "足踝生物力学矫正",
+        "运动损伤管理",
+        "慢性疼痛管理"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "台湾学善物理治疗培训课程 BASIC 合格认证",
+        "台湾学善物理治疗培训课程 LEVEL 1&2 合格认证",
+        "VSYLI MEDICAL 中国区 LEVEL 1"
+      ],
+      "education": [
+        "内蒙古医科大学康复治疗专业"
+      ]
+    },
+    {
+      "id": "zheng-jia-qi",
+      "name": "郑佳琦",
+      "name_en": "ZhengJiaQi",
+      "title": "康复师",
+      "store": "高新店",
+      "store_id": "store-1-gaoxin",
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "筋膜松解",
+        "髌骨脱位复健",
+        "踝关节损伤复健",
+        "半月板损伤复健",
+        "内侧副韧带损伤复健",
+        "运动损伤管理",
+        "物理因子复健"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "FMS 功能性评估",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "内蒙古科技大学包头医学院运动康复专业"
+      ]
+    },
+    {
+      "id": "cui-yuan-ri",
+      "name": "崔源日",
+      "name_en": "CuiYuanRi",
+      "title": "康复师",
+      "store": "开发区店",
+      "store_id": "store-3-kaifaqu",
+      "specialties": [
+        "骨科术后复健",
+        "膝关节损伤复健",
+        "动态关节松动",
+        "运动表现提升",
+        "运动损伤管理",
+        "物理因子复健"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "大连医科大学（中山学院）康复治疗学专业"
+      ]
+    },
+    {
+      "id": "li-qiu-tong",
+      "name": "李邱佟",
+      "name_en": "LiQiuTong",
+      "title": "康复师",
+      "store": "开发区店",
+      "store_id": "store-3-kaifaqu",
+      "specialties": [
+        "踝关节损伤复健",
+        "跟腱损伤复健",
+        "前、后交叉韧带损伤复健",
+        "半月板损伤复健",
+        "髌骨脱位复健",
+        "内侧副韧带损伤复健",
+        "筋膜舒缓",
+        "运动表现提升",
+        "运动损伤管理",
+        "动态关节松动",
+        "物理因子复健"
+      ],
+      "qualifications": [
+        "国家卫生部认证康复师",
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "大连医科大学（中山学院）运动康复专业"
+      ]
+    },
+    {
+      "id": "li-ze-hua",
+      "name": "李泽华",
+      "name_en": "LiZeHua",
+      "title": "康复师",
+      "store": "开发区店",
+      "store_id": "store-3-kaifaqu",
+      "specialties": [
+        "踝关节损伤复健",
+        "半月板损伤复健",
+        "前、后交叉韧带损伤复健",
+        "筋膜松解",
+        "运动损伤管理",
+        "物理因子复健"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "FMS 功能性评估",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "山西医科大学运动康复专业"
+      ]
+    },
+    {
+      "id": "li-yue-ze",
+      "name": "李岳泽",
+      "name_en": "LiYueZe",
+      "title": "康复师",
+      "store": "西岗店",
+      "store_id": "store-4-xigang",
+      "specialties": [
+        "前、后交叉韧带损伤复健",
+        "筋膜松解",
+        "半月板损伤复健",
+        "运动损伤复健",
+        "物理因子康复",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动",
+        "NASM 纠正性训练",
+        "FMS 功能性评估",
+        "NSCA 体能训练"
+      ],
+      "education": [
+        "中国医科大学康复治疗学专业"
+      ]
+    },
+    {
+      "id": "su-xue",
+      "name": "苏雪",
+      "name_en": "SuXue",
+      "title": "康复师",
+      "store": "西岗店",
+      "store_id": "store-4-xigang",
+      "specialties": [
+        "前、后交叉韧带损伤修复",
+        "筋膜软化",
+        "内、外侧副韧带损伤修复",
+        "体态矫正",
+        "脊柱侧弯矫正",
+        "慢性疼痛管理",
+        "运动损伤管理",
+        "跟腱损伤管理",
+        "TFCC 损伤修复",
+        "精通 PRI 呼吸技术"
+      ],
+      "qualifications": [
+        "FMS 功能评估",
+        "SFMS 运动功能筛查"
+      ],
+      "education": [
+        "渤海理工学院康复治疗学专业"
+      ]
+    },
+    {
+      "id": "wu-si-lin",
+      "name": "吴思霖",
+      "name_en": "WuSiLin",
+      "title": "康复师",
+      "store": "西岗店",
+      "store_id": "store-4-xigang",
+      "specialties": [
+        "慢性疼痛管理",
+        "运动损伤管理",
+        "术后康复与功能提升",
+        "体态纠正",
+        "运动表现提升"
+      ],
+      "qualifications": [
+        "MULLIGAN 动态关节松动国际认证",
+        "PRI 姿势纠正训练",
+        "PNF 神经肌肉控制训练"
+      ],
+      "education": [
+        "川北医学院运动康复专业"
+      ]
     }
   ],
+  "store_assignments": {
+    "store-1-gaoxin": {
+      "store_name": "高新店",
+      "manager": "杨家琦",
+      "member_ids": ["yang-jia-qi", "fu-jia", "xu-hao", "zhang-yu", "zheng-jia-qi"],
+      "member_count": 5
+    },
+    "store-2-xianlu": {
+      "store_name": "西安路店",
+      "manager": "张博",
+      "member_ids": ["zhang-bo", "bu-fan-xin", "liu-jing", "wang-han-sheng", "zi-hai-wei"],
+      "member_count": 5
+    },
+    "store-3-kaifaqu": {
+      "store_name": "开发区店",
+      "manager": "邱雪莹",
+      "member_ids": ["qiu-xue-ying", "cui-yuan-ri", "li-qiu-tong", "li-ze-hua"],
+      "member_count": 4
+    },
+    "store-4-xigang": {
+      "store_name": "西岗店",
+      "manager": "秦英瀚",
+      "member_ids": ["qin-ying-han", "li-yue-ze", "su-xue", "wu-si-lin"],
+      "member_count": 4
+    },
+    "all-stores": {
+      "store_name": "各门店均提供服务",
+      "member_ids": ["liu-yong-kan"],
+      "member_count": 1,
+      "note": "技术总监刘永侃在 4 家门店均提供服务"
+    }
+  },
   "last_updated": "2026-05-27",
-  "source": "https://www.backto.cc/",
-  "note": "官网公开的具名团队成员信息有限，需联系机构获取完整团队信息后补全"
+  "source": "百途运动康复中心官方康复师介绍图片"
 }
