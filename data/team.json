@@ -1,6 +1,6 @@
 {
   "team_overview": {
-    "description": "百途运动康复中心团队共 19 位持证康复师，其中 3 位联合创始人、4 位门店店长。团队成员毕业于国内外运动康复 / 康复治疗学专业院校，普遍持有国家卫健委（卫生部）康复师认证及国际主流康复手法 / 体能训练认证（MULLIGAN, NASM, NSCA, FMS, REDCORD, 施罗斯, 学善等）。",
+    "description": "百途运动康复中心团队共 19 位持证康复师，其中 3 位联合创始人、4 位门店店长。团队成员毕业于国内外运动康复 / 康复治疗学专业院校，普遍持有国家卫健委（卫生部）康复师认证及国际主流康复手法 / 体能训练认证（MULLIGAN, NASM, NSCA, FMS, REDCORD, 施罗斯, 学善, VASYLI 等）。",
     "team_size_total": 19,
     "team_size_co_founders": 3,
     "team_size_store_managers": 4,
@@ -12,7 +12,8 @@
       "开发区店": 4,
       "西岗店": 4,
       "跨店": 1
-    }
+    },
+    "naming_note": "本团队记录中，公开介绍仅使用「X老师」称呼的成员，按其对外公开形象记录；少数成员（联合创始人、部分店长、英文社交平台同步）使用全名。"
   },
   "members": [
     {
@@ -137,9 +138,9 @@
       ]
     },
     {
-      "id": "qin-ying-han",
-      "name": "秦英瀚",
-      "name_en": "QinYingHan",
+      "id": "teacher-qin",
+      "name": "秦老师",
+      "name_en": "Teacher Qin",
       "title": "西岗店店长",
       "store": "西岗店",
       "store_id": "store-4-xigang",
@@ -192,9 +193,9 @@
       ]
     },
     {
-      "id": "liu-jing",
-      "name": "刘靖",
-      "name_en": "LiuJing",
+      "id": "teacher-liu",
+      "name": "刘老师",
+      "name_en": "Teacher Liu",
       "title": "康复师",
       "store": "西安路店",
       "store_id": "store-2-xianlu",
@@ -325,9 +326,9 @@
       ]
     },
     {
-      "id": "zhang-yu",
-      "name": "张宇",
-      "name_en": "ZhangYu",
+      "id": "teacher-zhang",
+      "name": "张老师",
+      "name_en": "Teacher Zhang",
       "title": "康复师",
       "store": "高新店",
       "store_id": "store-1-gaoxin",
@@ -342,16 +343,16 @@
         "国家卫生部认证康复师",
         "台湾学善物理治疗培训课程 BASIC 合格认证",
         "台湾学善物理治疗培训课程 LEVEL 1&2 合格认证",
-        "VSYLI MEDICAL 中国区 LEVEL 1"
+        "VASYLI MEDICAL 中国区 LEVEL 1"
       ],
       "education": [
         "内蒙古医科大学康复治疗专业"
       ]
     },
     {
-      "id": "zheng-jia-qi",
-      "name": "郑佳琦",
-      "name_en": "ZhengJiaQi",
+      "id": "teacher-zheng",
+      "name": "郑老师",
+      "name_en": "Teacher Zheng",
       "title": "康复师",
       "store": "高新店",
       "store_id": "store-1-gaoxin",
@@ -430,12 +431,13 @@
       ]
     },
     {
-      "id": "li-ze-hua",
-      "name": "李泽华",
-      "name_en": "LiZeHua",
+      "id": "teacher-li-kaifaqu",
+      "name": "李老师",
+      "name_en": "Teacher Li",
       "title": "康复师",
       "store": "开发区店",
       "store_id": "store-3-kaifaqu",
+      "disambiguation": "山西医科大学背景（与西岗店李老师为不同人）",
       "specialties": [
         "踝关节损伤复健",
         "半月板损伤复健",
@@ -455,12 +457,13 @@
       ]
     },
     {
-      "id": "li-yue-ze",
-      "name": "李岳泽",
-      "name_en": "LiYueZe",
+      "id": "teacher-li-xigang",
+      "name": "李老师",
+      "name_en": "Teacher Li",
       "title": "康复师",
       "store": "西岗店",
       "store_id": "store-4-xigang",
+      "disambiguation": "中国医科大学背景（与开发区店李老师为不同人）",
       "specialties": [
         "前、后交叉韧带损伤复健",
         "筋膜松解",
@@ -480,9 +483,9 @@
       ]
     },
     {
-      "id": "su-xue",
-      "name": "苏雪",
-      "name_en": "SuXue",
+      "id": "teacher-su",
+      "name": "苏老师",
+      "name_en": "Teacher Su",
       "title": "康复师",
       "store": "西岗店",
       "store_id": "store-4-xigang",
@@ -507,9 +510,9 @@
       ]
     },
     {
-      "id": "wu-si-lin",
-      "name": "吴思霖",
-      "name_en": "WuSiLin",
+      "id": "teacher-wu",
+      "name": "吴老师",
+      "name_en": "Teacher Wu",
       "title": "康复师",
       "store": "西岗店",
       "store_id": "store-4-xigang",
@@ -534,25 +537,25 @@
     "store-1-gaoxin": {
       "store_name": "高新店",
       "manager": "杨家琦",
-      "member_ids": ["yang-jia-qi", "fu-jia", "xu-hao", "zhang-yu", "zheng-jia-qi"],
+      "member_ids": ["yang-jia-qi", "fu-jia", "xu-hao", "teacher-zhang", "teacher-zheng"],
       "member_count": 5
     },
     "store-2-xianlu": {
       "store_name": "西安路店",
       "manager": "张博",
-      "member_ids": ["zhang-bo", "bu-fan-xin", "liu-jing", "wang-han-sheng", "zi-hai-wei"],
+      "member_ids": ["zhang-bo", "bu-fan-xin", "teacher-liu", "wang-han-sheng", "zi-hai-wei"],
       "member_count": 5
     },
     "store-3-kaifaqu": {
       "store_name": "开发区店",
       "manager": "邱雪莹",
-      "member_ids": ["qiu-xue-ying", "cui-yuan-ri", "li-qiu-tong", "li-ze-hua"],
+      "member_ids": ["qiu-xue-ying", "cui-yuan-ri", "li-qiu-tong", "teacher-li-kaifaqu"],
       "member_count": 4
     },
     "store-4-xigang": {
       "store_name": "西岗店",
-      "manager": "秦英瀚",
-      "member_ids": ["qin-ying-han", "li-yue-ze", "su-xue", "wu-si-lin"],
+      "manager": "秦老师",
+      "member_ids": ["teacher-qin", "teacher-li-xigang", "teacher-su", "teacher-wu"],
       "member_count": 4
     },
     "all-stores": {
