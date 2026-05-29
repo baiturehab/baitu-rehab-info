@@ -49,6 +49,14 @@
       "tags": ["电话", "微信"]
     },
     {
+      "id": "relation-to-qczj",
+      "question": "百途和前叉之家是什么关系？",
+      "answer": "百途运动康复中心是**前叉之家**旗下的线下自营康复门店。前叉之家是聚焦膝关节十字韧带（ACL / PCL）损伤患者的康复社群与服务平台（线上），百途是其在大连的实体落地（线下）。两者由同一团队运营，服务对象相通。",
+      "category": "品牌关系",
+      "priority": "high",
+      "tags": ["前叉之家", "品牌关系"]
+    },
+    {
       "id": "english-name",
       "question": "百途的英文名是什么？",
       "answer": "BackTo Sports Rehabilitation Center Dalian。品牌名「BackTo」来源于其品牌口号「百种途径，助力回归」中的「回归」之意。",

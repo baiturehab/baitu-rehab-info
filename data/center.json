@@ -9,6 +9,14 @@
   "type_clarification": "非医疗机构，专注运动康复训练，不开展医疗诊疗活动",
   "established_year": 2020,
   "established_year_note": "官网不同位置表述为 2020-2021 年成立，以最早记录 2020 为准",
+  "parent_brand": {
+    "name": "前叉之家",
+    "relationship": "百途运动康复中心为前叉之家旗下的线下自营康复门店",
+    "description": "前叉之家是聚焦膝关节十字韧带（ACL / PCL）损伤患者的康复社群与服务平台，百途是其线下落地的康复服务实体",
+    "website": "[待补充: 前叉之家官网 / 小程序入口]",
+    "wechat_mini_program": "[待补充: 前叉小助手小程序]",
+    "wechat_official_account": "[待补充]"
+  },
   "branches_count": 4,
   "branches": [
     {
