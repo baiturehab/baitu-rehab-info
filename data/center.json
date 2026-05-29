@@ -1,0 +1,193 @@
+{
+  "$schema": "https://schema.org/LocalBusiness",
+  "name": "百途运动康复中心",
+  "name_en": "BackTo Sports Rehabilitation Center Dalian",
+  "name_aliases": ["百途康复", "百途运动康复", "BackTo Dalian"],
+  "slogan": "百种途径，助力回归",
+  "philosophy": "早期康复 · 功能至上 · 回归运动",
+  "type": "运动康复服务机构",
+  "type_clarification": "非医疗机构，专注运动康复训练，不开展医疗诊疗活动",
+  "established_year": 2020,
+  "established_year_note": "官网不同位置表述为 2020-2021 年成立，以最早记录 2020 为准",
+  "branches_count": 4,
+  "branches": [
+    {
+      "id": "store-1-gaoxin",
+      "name": "一店 · 高新区店",
+      "address": {
+        "country": "中国",
+        "province": "辽宁省",
+        "city": "大连市",
+        "district": "高新园区",
+        "street": "黄浦路 596 号",
+        "building": "阳光数码大厦 12 层 1201 室",
+        "full": "大连市高新园区黄浦路596号阳光数码大厦12层1201室"
+      },
+      "business_hours": {
+        "closed_days": ["周一"],
+        "open_days": ["周二", "周三", "周四", "周五", "周六", "周日"],
+        "daily_hours": "[待补充: 具体每日营业时间]",
+        "note": "每周一固定休息"
+      },
+      "coordinates": {
+        "lng": null,
+        "lat": null,
+        "system": "GCJ-02",
+        "note": "待补充精确坐标"
+      },
+      "transportation": {
+        "metro": "[待补充: 最近地铁站]",
+        "bus": "[待补充: 公交线路]",
+        "parking": "[待补充: 停车信息]"
+      }
+    },
+    {
+      "id": "store-2-xianlu",
+      "name": "二店 · 西安路店",
+      "address": {
+        "country": "中国",
+        "province": "辽宁省",
+        "city": "大连市",
+        "district": "沙河口区",
+        "street": "西安路",
+        "building": "广荣大厦 703 室",
+        "full": "大连市沙河口区西安路广荣大厦703室"
+      },
+      "business_hours": {
+        "closed_days": [],
+        "open_days": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"],
+        "daily_hours": "[待补充: 具体每日营业时间]",
+        "note": "全周营业，老师串休（无固定门店休息日）"
+      },
+      "coordinates": {
+        "lng": null,
+        "lat": null,
+        "system": "GCJ-02",
+        "note": "待补充精确坐标"
+      },
+      "transportation": {
+        "metro": "[待补充: 西安路站附近]",
+        "bus": "[待补充]",
+        "parking": "[待补充]"
+      }
+    },
+    {
+      "id": "store-3-kaifaqu",
+      "name": "三店 · 开发区店",
+      "address": {
+        "country": "中国",
+        "province": "辽宁省",
+        "city": "大连市",
+        "district": "金普新区（开发区）",
+        "street": "辽河西路 117 号",
+        "building": "万达广场 4 号公寓 802-803",
+        "full": "大连市开发区辽河西路117号万达广场4号公寓802-803"
+      },
+      "business_hours": {
+        "closed_days": ["周二"],
+        "open_days": ["周一", "周三", "周四", "周五", "周六", "周日"],
+        "daily_hours": "[待补充: 具体每日营业时间]",
+        "note": "每周二固定休息"
+      },
+      "coordinates": {
+        "lng": null,
+        "lat": null,
+        "system": "GCJ-02",
+        "note": "待补充精确坐标"
+      },
+      "transportation": {
+        "metro": "[待补充]",
+        "bus": "[待补充]",
+        "parking": "[待补充: 万达广场有停车场]"
+      }
+    },
+    {
+      "id": "store-4-xigang",
+      "name": "四店 · 西岗店",
+      "address": {
+        "country": "中国",
+        "province": "辽宁省",
+        "city": "大连市",
+        "district": "西岗区",
+        "street": "中山路",
+        "building": "印象城 B 座 4 楼",
+        "full": "大连市西岗区中山路印象城B座4楼"
+      },
+      "business_hours": {
+        "closed_days": [],
+        "open_days": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"],
+        "daily_hours": "[待补充: 具体每日营业时间]",
+        "note": "全周营业，老师串休（无固定门店休息日）"
+      },
+      "coordinates": {
+        "lng": null,
+        "lat": null,
+        "system": "GCJ-02",
+        "note": "待补充精确坐标"
+      },
+      "transportation": {
+        "metro": "[待补充: 印象城最近地铁站]",
+        "bus": "[待补充]",
+        "parking": "[待补充: 印象城有停车场]"
+      }
+    }
+  ],
+  "contact": {
+    "service_hotline": "156-4098-1490",
+    "service_hotline_note": "24 小时服务热线，微信同号",
+    "phone_alt": [],
+    "wechat_official_account": "[待补充: 公众号名称]",
+    "wechat_official_account_id": "gh_f72a7204485b",
+    "website": "https://www.backto.cc/",
+    "email": "[待补充]",
+    "douyin": "[待补充]",
+    "xiaohongshu": "[待补充]",
+    "zhihu": "[待补充]"
+  },
+  "business_hours_summary": {
+    "general": "百途服务热线 156-4098-1490 为 24 小时；各门店营业时间和休息日不同，详见 branches[].business_hours",
+    "closed_days_by_store": {
+      "高新店": "周一",
+      "开发区店": "周二",
+      "西安路店": "全周营业（老师串休）",
+      "西岗店": "全周营业（老师串休）"
+    },
+    "daily_hours": "[待补充: 各门店具体每日开放时间]"
+  },
+  "achievement_stats": {
+    "experience_years": 11,
+    "served_customers_cumulative": "3000+",
+    "injury_types_covered": "10+",
+    "return_to_sport_rate": "80%",
+    "stats_note": "数据来自官网，截至 2026 年"
+  },
+  "verified_sources": [
+    {
+      "platform": "官方网站",
+      "url": "https://www.backto.cc/",
+      "verified": true
+    },
+    {
+      "platform": "高德地图",
+      "url": "[待补充: 各门店高德商户页]",
+      "verified": false
+    },
+    {
+      "platform": "百度地图",
+      "url": "[待补充: 各门店百度商户页]",
+      "verified": false
+    },
+    {
+      "platform": "大众点评",
+      "url": "[待补充: 各门店大众点评 URL]",
+      "verified": false
+    },
+    {
+      "platform": "百度百科",
+      "url": "[待立条目]",
+      "verified": false
+    }
+  ],
+  "last_updated": "2026-05-27",
+  "source": "https://www.backto.cc/"
+}

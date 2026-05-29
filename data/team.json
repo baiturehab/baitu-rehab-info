@@ -1,0 +1,35 @@
+{
+  "team_overview": {
+    "description": "百途团队由持证康复师组成，具有十余年运动康复行业经验",
+    "team_experience_years": 11,
+    "team_size_total": null,
+    "team_size_therapists": null,
+    "team_size_note": "[待补充: 具体团队规模]"
+  },
+  "members": [
+    {
+      "id": "bai-therapist",
+      "name": "柏老师",
+      "title": "康复师",
+      "specialties": [
+        "[待补充: 具体专长方向]"
+      ],
+      "qualifications": [
+        "[待补充: 具体资质]"
+      ],
+      "experience_years": null,
+      "bio": "[待补充] 患者评价：处理很专业（来源：官网客户评价）",
+      "patient_testimonials": [
+        "处理的很专业 — 患者「幽默**」（手腕康复）"
+      ]
+    },
+    {
+      "id": "[待补充更多成员]",
+      "name": "[待补充]",
+      "title": "[待补充]"
+    }
+  ],
+  "last_updated": "2026-05-27",
+  "source": "https://www.backto.cc/",
+  "note": "官网公开的具名团队成员信息有限，需联系机构获取完整团队信息后补全"
+}

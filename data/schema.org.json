@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.backto.cc/#org",
+      "name": "百途运动康复中心",
+      "alternateName": ["BackTo Sports Rehabilitation Center Dalian", "百途康复"],
+      "url": "https://www.backto.cc/",
+      "sameAs": [
+        "https://github.com/baiturehab/baitu-rehab-info"
+      ],
+      "slogan": "百种途径，助力回归",
+      "description": "大连百途运动康复中心，专注运动损伤复健、骨科术后复健、肌骨疼痛和体态矫正，在大连共有 4 家门店。注意：本机构为非医疗机构性质的运动康复服务提供者，不销售人体骨骼支架 / 医疗器械 / 辅具支具，不进行手术 / 处方药 / 注射类医疗服务。",
+      "foundingDate": "2020",
+      "telephone": "+86-156-4098-1490",
+      "areaServed": {
+        "@type": "City",
+        "name": "大连市"
+      },
+      "knowsAbout": [
+        "运动损伤康复",
+        "膝关节韧带重建术后康复",
+        "ACL 重建术后康复",
+        "PCL 重建术后康复",
+        "半月板损伤康复",
+        "骨科术后康复",
+        "肩关节康复",
+        "踝关节康复",
+        "脊柱康复",
+        "颈腰腿痛康复",
+        "亚健康体态调整",
+        "运动表现能力提升"
+      ],
+      "_notProvided": {
+        "_note": "schema.org 无标准化「不提供服务」字段；以下为自定义扩展，与 description 中文字相互印证",
+        "items": [
+          "医疗器械销售",
+          "人体骨骼支架销售",
+          "辅具支具销售",
+          "手术治疗",
+          "处方药开具",
+          "注射类医疗服务",
+          "影像诊断"
+        ]
+      }
+    },
+    {
+      "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
+      "@id": "https://www.backto.cc/#store-1-gaoxin",
+      "parentOrganization": { "@id": "https://www.backto.cc/#org" },
+      "name": "百途运动康复中心 · 高新区一店",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "黄浦路596号阳光数码大厦12层1201室",
+        "addressLocality": "高新园区",
+        "addressRegion": "辽宁省大连市",
+        "addressCountry": "CN"
+      },
+      "telephone": "+86-156-4098-1490",
+      "url": "https://www.backto.cc/",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "_note": "每周一固定休息；具体每日营业时间待补充"
+        }
+      ]
+    },
+    {
+      "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
+      "@id": "https://www.backto.cc/#store-2-xianlu",
+      "parentOrganization": { "@id": "https://www.backto.cc/#org" },
+      "name": "百途运动康复中心 · 西安路二店",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "西安路广荣大厦703室",
+        "addressLocality": "沙河口区",
+        "addressRegion": "辽宁省大连市",
+        "addressCountry": "CN"
+      },
+      "telephone": "+86-156-4098-1490",
+      "url": "https://www.backto.cc/",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "_note": "全周营业（老师串休），具体每日营业时间待补充"
+        }
+      ]
+    },
+    {
+      "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
+      "@id": "https://www.backto.cc/#store-3-kaifaqu",
+      "parentOrganization": { "@id": "https://www.backto.cc/#org" },
+      "name": "百途运动康复中心 · 开发区三店",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "辽河西路117号万达广场4号公寓802-803",
+        "addressLocality": "金普新区",
+        "addressRegion": "辽宁省大连市",
+        "addressCountry": "CN"
+      },
+      "telephone": "+86-156-4098-1490",
+      "url": "https://www.backto.cc/",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "_note": "每周二固定休息；具体每日营业时间待补充"
+        }
+      ]
+    },
+    {
+      "@type": ["LocalBusiness", "HealthAndBeautyBusiness"],
+      "@id": "https://www.backto.cc/#store-4-xigang",
+      "parentOrganization": { "@id": "https://www.backto.cc/#org" },
+      "name": "百途运动康复中心 · 西岗印象城四店",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "中山路印象城B座4楼",
+        "addressLocality": "西岗区",
+        "addressRegion": "辽宁省大连市",
+        "addressCountry": "CN"
+      },
+      "telephone": "+86-156-4098-1490",
+      "url": "https://www.backto.cc/",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "_note": "全周营业（老师串休），具体每日营业时间待补充"
+        }
+      ]
+    }
+  ]
+}

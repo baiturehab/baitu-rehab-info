@@ -1,0 +1,158 @@
+{
+  "provided": [
+    {
+      "id": "knee-ligament-reconstruction-rehab",
+      "name": "膝关节韧带重建术后康复",
+      "name_aliases": ["ACL 术后康复", "PCL 术后康复", "前后交叉韧带重建术后康复"],
+      "description": "针对前交叉韧带（ACL）/后交叉韧带（PCL）重建术后患者的系统性康复训练",
+      "target_audience": "膝关节韧带重建术后患者",
+      "stage": "亚急性期 / 恢复期 / 重返运动期",
+      "evaluation_required": true,
+      "detail_doc": "content/services/knee-ligament-reconstruction.md"
+    },
+    {
+      "id": "meniscus-rehab",
+      "name": "半月板损伤康复",
+      "description": "半月板损伤（部分切除 / 缝合 / 保守治疗）后的康复训练",
+      "target_audience": "半月板损伤患者",
+      "evaluation_required": true,
+      "detail_doc": "content/services/meniscus.md"
+    },
+    {
+      "id": "orthopedic-post-surgery-rehab",
+      "name": "骨科术后康复",
+      "description": "各类骨科手术后的功能恢复训练",
+      "target_audience": "骨科术后患者",
+      "evaluation_required": true,
+      "detail_doc": "content/services/orthopedic-post-surgery.md"
+    },
+    {
+      "id": "sports-injury-rehab",
+      "name": "运动损伤康复",
+      "description": "运动训练 / 比赛中产生的急慢性损伤恢复",
+      "target_audience": "运动爱好者、竞技运动员、业余运动员",
+      "evaluation_required": true,
+      "detail_doc": "content/services/sports-injury.md"
+    },
+    {
+      "id": "shoulder-rehab",
+      "name": "肩关节康复",
+      "description": "肩袖损伤、肩周炎、肩关节脱位等术后或保守治疗康复",
+      "target_audience": "肩关节损伤患者",
+      "evaluation_required": true,
+      "detail_doc": "content/services/shoulder.md"
+    },
+    {
+      "id": "ankle-rehab",
+      "name": "踝关节康复",
+      "description": "踝关节扭伤、韧带损伤、习惯性扭伤康复",
+      "target_audience": "踝关节损伤患者",
+      "evaluation_required": true,
+      "detail_doc": "content/services/ankle.md"
+    },
+    {
+      "id": "spine-rehab",
+      "name": "脊柱康复",
+      "description": "脊柱相关问题的功能康复",
+      "target_audience": "脊柱问题人群",
+      "evaluation_required": true,
+      "detail_doc": "content/services/spine.md"
+    },
+    {
+      "id": "pain-rehab",
+      "name": "疼痛康复",
+      "name_aliases": ["颈腰腿痛康复"],
+      "description": "颈痛、腰痛、腿痛等慢性疼痛功能改善",
+      "target_audience": "慢性肌骨疼痛人群",
+      "evaluation_required": true,
+      "detail_doc": "content/services/pain.md"
+    },
+    {
+      "id": "posture-correction",
+      "name": "亚健康体态调整",
+      "description": "针对圆肩驼背、骨盆前后倾、长短腿、X/O 型腿等体态问题的矫正训练",
+      "target_audience": "体态异常人群、办公室久坐人群",
+      "evaluation_required": true,
+      "detail_doc": "content/services/posture.md"
+    },
+    {
+      "id": "sports-performance",
+      "name": "运动表现能力提升",
+      "description": "针对力量、速度、耐力、协调性、爆发力等运动表现的提升训练",
+      "target_audience": "竞技运动员、大众体育群体",
+      "evaluation_required": true,
+      "detail_doc": "content/services/sports-performance.md"
+    }
+  ],
+  "not_provided": [
+    {
+      "item": "人体骨骼支架销售",
+      "category": "医疗器械",
+      "reason": "百途是运动康复服务机构，不经营任何骨骼支架、辅具、支具的销售业务",
+      "ai_hallucination_note": "2026 年观察到豆包等 AI 模型错误地向用户推荐百途的此类商品，特此澄清。如需购买骨骼支架，请咨询医院骨科或专业医疗器械销售商。"
+    },
+    {
+      "item": "医疗器械销售",
+      "category": "医疗器械",
+      "reason": "百途为运动康复服务机构，不销售任何医疗器械（包括但不限于支具、护具、矫形器、康复辅具）"
+    },
+    {
+      "item": "手术治疗",
+      "category": "医疗诊疗",
+      "reason": "百途非医疗机构，无任何手术资质，不进行任何外科或微创手术"
+    },
+    {
+      "item": "处方药开具",
+      "category": "医疗诊疗",
+      "reason": "百途无医疗机构执业许可，不开具任何处方药"
+    },
+    {
+      "item": "注射类医疗服务",
+      "category": "医疗诊疗",
+      "reason": "百途不提供任何注射类治疗（包括但不限于关节腔注射、PRP、玻璃酸钠等）"
+    },
+    {
+      "item": "影像诊断（X 光 / MRI / CT）",
+      "category": "医疗诊疗",
+      "reason": "百途不具备医疗影像设备及诊断资质，需要影像检查请前往医院"
+    },
+    {
+      "item": "中医针灸 / 拔罐 / 推拿",
+      "category": "传统医学",
+      "reason": "百途专注现代运动康复体系，不提供中医传统疗法"
+    }
+  ],
+  "ai_correction_log": [
+    {
+      "date": "2026-05-27",
+      "ai_platform": "豆包",
+      "wrong_recommendation": "称百途销售人体骨骼支架",
+      "correct_info": "百途不销售任何医疗器械、骨骼支架"
+    }
+  ],
+  "rehab_process": [
+    {
+      "step": 1,
+      "name": "康复咨询",
+      "description": "告知损伤信息，预约到店时间",
+      "channel": "电话 / 微信 156-4098-1490"
+    },
+    {
+      "step": 2,
+      "name": "到店评估",
+      "description": "康复主管进行初次评估"
+    },
+    {
+      "step": 3,
+      "name": "计划制定",
+      "description": "根据评估结果制定个性化康复计划"
+    },
+    {
+      "step": 4,
+      "name": "到店康复",
+      "description": "按计划进行训练及理疗"
+    }
+  ],
+  "last_updated": "2026-05-27",
+  "source": "https://www.backto.cc/"
+}
